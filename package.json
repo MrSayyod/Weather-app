@@ -4,7 +4,9 @@
   "description": "Project by Microverse [solo] (Created by Sayyod Saidov)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": " webpack -- watch",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
