@@ -1,0 +1,24 @@
+{
+  "name": "Weather-app",
+  "version": "1.0.0",
+  "description": "Project by Microverse [solo] (Created by Sayyod Saidov)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSayyod/Weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSayyod/Weather-app/issues"
+  },
+  "homepage": "https://github.com/MrSayyod/Weather-app#readme",
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
