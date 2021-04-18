@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather app</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <ol>
@@ -23,7 +24,14 @@
     <label for="result">Click the button for getting weather data</label>
     <input type="submit" value="Get results" id="submit">
   </form>
-  <div class="display"></div>
+  <div class="display">
+    <div class="city"></div>
+    <div class="weather"></div>
+    <div class="weather_type">
+      <span class="for_text"></span>
+      <span class="for_img"></span>
+    </div>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>

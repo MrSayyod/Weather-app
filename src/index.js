@@ -18,6 +18,7 @@ function getResult() {
     console.log(`City: ${result.city} \n Temperate: ${result.temperature} in Kalvin`)
     let jsonResult =  JSON.stringify(result)
     console.log(jsonResult);
+    console.log(response);
     return jsonResult
   })
   .catch(function(error) {
@@ -30,6 +31,18 @@ submit.addEventListener('click', (e)=> {
   e.preventDefault()
   getResult()
 })
+
+// const body = document.querySelector('body')
+//  const main = document.createElement('main')
+//  const container = document.createElement('section')
+//  container.setAttribute('class', 'container')
+//  const div = document.createElement('div')
+ 
+// let nodes = [body, main, container, div]
+// for (let i = nodes.length-2; i>=0; i--) {
+// 	nodes[i].appendChild(nodes[i+1])
+// }
+
 
 
 // `http://api.openweathermap.org/data/2.5/weather?q=Tashkent&appid=${apiKey}`
