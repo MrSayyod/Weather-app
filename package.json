@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/MrSayyod/Weather-app#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "webpack": "^5.31.2",
     "webpack-cli": "^4.6.0"
   }
