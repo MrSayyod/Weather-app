@@ -9,7 +9,7 @@ const nodeCreator = (htmlTag, options = {}, text = '') => {
 };
 
 const chainAppend = (nodes = []) => {
-  for (let i = nodes.length - 2; i >= 0; i = -1) {
+  for (let i = nodes.length - 2; i >= 0; i -= 1) {
     nodes[i].appendChild(nodes[i + 1]);
   }
 };
