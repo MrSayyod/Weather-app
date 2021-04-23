@@ -11,6 +11,10 @@ The project is intended to get weather data of which city user wants by using AP
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
+* [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
+* [Prerequisites](#prerequisites)
+* [Setup](#setup)
 * [Author](#author)
 * [Contributing](#contributing)
 * [Show your support](#show-your-support)
@@ -21,6 +25,26 @@ The project is intended to get weather data of which city user wants by using AP
 
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+# Getting Started
+
+To get started, you should first get this repo in your local machine by downloading this project or typing:
+`
+git clone https://github.com/MrSayyod/Weather-app.git
+`
+
+## Prerequisites
+  - Browser (preferably: Google Chrome)
+  - Text editor (preferably: VSCode, Atom, Sublime)
+  - Command line
+
+## Setup
+   1. Clone the project into your local machine using `git clone` command or download the zip file.
+   2. Go into the project directory using `cd directory name` command.
+   3. Run `npm install`.
+   4. Open index.html file via your default browser.
+   5. Run `npx webpack --watch`.
+   6. Type the city name you want to see weather data.
 
 # Author
 
