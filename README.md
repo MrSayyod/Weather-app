@@ -5,7 +5,7 @@
 # Weather App
 Weather App [Project by Microverse] (Created by Sayyod Saidov)
 # About the Project
-The project is intended to get weather data of which city user wants by using API.
+The project is intended to get weather data of which city user wants by using API. To get the API, please visit [OpenWeatherMap](https://openweathermap.org/price) and signup/in.
 
 # Table of Contents
 
