@@ -3,6 +3,13 @@ import { nodeCreator, chainAppend } from './nodeCreator';
 const apiKey = '1ebf85132fae8866f42ade66510b07df';
 const search = document.getElementById('search');
 const submit = document.getElementById('submit');
+const toggler = document.getElementById('toggler')
+
+function displayToggler(display) {
+  const toggler = nodeCreator('button', {id: "toggler", class: "btn btn-primary"}, "℃ / ℉")
+  chainAppend([display, toggler])
+}
+
 function getResult() {
   const body = document.querySelector('body');
   const display = document.getElementById('display');
@@ -22,13 +29,15 @@ function getResult() {
           display.removeChild(display.firstChild);
         }
       }
-      chainAppend([display, city]);
-      chainAppend([display, weather]);
-      chainAppend([display, weatherType, weatherTypeText]);
+    
       city.textContent = response.name;
       degree = (response.main.temp - 273.15).toFixed(1);
       weather.textContent = `${degree}° C`;
       weatherTypeText.textContent = response.weather[0].main;
+      chainAppend([display, city]);
+      chainAppend([display, weather]);
+      chainAppend([display, weatherType, weatherTypeText]);
+      displayToggler(display)
     })
     .catch(() => {
       if (display.firstChild) {
@@ -40,6 +49,7 @@ function getResult() {
       chainAppend([body, display, err]);
     });
 }
+
 
 submit.addEventListener('click', (e) => {
   e.preventDefault();
