@@ -1,12 +1,14 @@
 {
-  "name": "Weather-app",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "Project by Microverse [solo] (Created by Sayyod Saidov)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": " webpack -- watch",
-    "build": "webpack"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
   "repository": {
     "type": "git",
