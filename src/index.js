@@ -26,12 +26,12 @@ function displayToggler(display, number, text) {
   const toggler = nodeCreator('button', { id: 'toggler', class: 'btn btn-primary' }, '°C / °F');
   toggler.addEventListener('click', () => {
     let degree = Number(number.textContent);
-    if (text.textContent == '°C') {
-      degree = ((degree * 9 / 5) + 32).toFixed(1);
+    if (text.textContent === '°C') {
+      degree = ((degree * (9 / 5)) + 32).toFixed(1);
       number.textContent = degree;
       text.textContent = '°F';
-    } else if (text.textContent == '°F') {
-      degree = ((degree - 32) * 5 / 9).toFixed(1);
+    } else if (text.textContent === '°F') {
+      degree = ((degree - 32) * (5 / 9)).toFixed(1);
       number.textContent = degree;
       text.textContent = '°C';
     }
