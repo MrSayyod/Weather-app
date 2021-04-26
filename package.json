@@ -1,0 +1,32 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Project by Microverse [solo] (Created by Sayyod Saidov)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": " webpack -- watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSayyod/Weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSayyod/Weather-app/issues"
+  },
+  "homepage": "https://github.com/MrSayyod/Weather-app#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
